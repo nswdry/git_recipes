@@ -6,6 +6,7 @@
   --text: #111827;
   --muted: #6b7280;
   --border: #e5e7eb;
+  --accent: #d97706;
 }
 
 *{ box-sizing: border-box; }
@@ -105,7 +106,36 @@ section.ingredients li.sub-ingredients{
 
 /* ========== instructions (numbered steps) ========== */
 section.instructions ol{
-  list-style: decimal;
+  list-style: none;          /* 標準の数字を消す */
+  counter-reset: step;
+  padding-left: 0;
+}
+
+section.instructions li{
+  counter-increment: step;
+  position: relative;
+  margin: 14px 0;
+  padding-left: 44px;        /* 丸数字分の余白 */
+}
+
+section.instructions li::before{
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0.1em;
+
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
 }
 
 /* ========== tips ========== */
