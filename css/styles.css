@@ -212,3 +212,21 @@ article.index .lead {
   color: var(--muted);
   font-size: 14px;
 }
+
+/* ========== 戻るナビリンク ========== */
+
+.back-nav {
+  margin-bottom: 1rem;
+}
+
+.back-link {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: var(--accent);
+  text-decoration: none;
+  padding: 0.25rem 0;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
