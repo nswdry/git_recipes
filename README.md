@@ -5,13 +5,11 @@
 
 ## 課題1: Pull Request の問題点を発見する(1)
 
-https://github.com/betachelsea/git_recipes/pull/1 のPull Requestについて、問題点を指摘してください。
-※fjordllcに移設したらURL変更
+https://github.com/fjordllc/git_recipes/pull/1 のPull Requestについて、問題点を指摘してください。
 
 ## 課題2: Pull Request の問題点を発見する(2)
 
-https://github.com/betachelsea/git_recipes/pull/2 のPull Requestについて、問題点を指摘してください。
-※fjordllcに移設したらURL変更
+https://github.com/fjordllc/git_recipes/pull/2 のPull Requestについて、問題点を指摘してください。
 
 ## 課題3: 履歴の調べ方を確認する
 
@@ -62,5 +60,4 @@ $ git switch -c fix_nikujyaga main
 6. 完成したら、Pull Requestを作成し、URLを提出してください。
 Pull Requestの作成画面では、merge先として **自分自身のアカウントのgit_recipesリポジトリ** を指定してください。
 また、**作成したPull Requestは提出後に確認OKをもらうまでmergeのボタンを押さないでください。**
-![Pull Request作成画面](https://user-images.githubusercontent.com/2603449/153869536-822379da-6eb0-4d25-92e4-685632508831.png)
-※画像は別のリポジトリで試した例です。　　
+![Pull Request作成画面](https://github.com/user-attachments/assets/e3bd4b7e-951d-438a-a65b-45dadb26eb85)
