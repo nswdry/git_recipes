@@ -5,11 +5,11 @@
 
 ## 課題1: Pull Request の問題点を発見する(1)
 
-https://github.com/fjordllc/git_recipes/pull/1 のPull Requestについて、問題点を指摘してください。
+[PR #1](https://github.com/fjordllc/git_recipes/pull/1) について、問題点を指摘してください。
 
 ## 課題2: Pull Request の問題点を発見する(2)
 
-https://github.com/fjordllc/git_recipes/pull/2 のPull Requestについて、問題点を指摘してください。
+[PR #2](https://github.com/fjordllc/git_recipes/pull/2) について、問題点を指摘してください。
 
 ## 課題3: 履歴の調べ方を確認する
 
