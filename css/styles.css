@@ -18,6 +18,10 @@ body{
 }
 
 /* ========== layout ========== */
+img {
+  max-width: 300px;
+}
+
 article{
   width: min(860px, 92vw);
   margin: 40px auto;
